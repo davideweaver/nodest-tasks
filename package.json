@@ -1,11 +1,25 @@
 {
   "name": "nodest-tasks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Extension providing background task scheduling for Nodest framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dave Weaver <dave@nolinio.com> (http://nolinio.com/)",
-  "license": "ISC"
+  "author": "Dave Weaver",
+	"keywords": [
+		"nodest",
+		"koa",
+		"tasks",
+		"scheduler"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davideweaver/nodest-tasks"
+	},
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/davideweaver/nodest-tasks/blob/master/LICENSE"
+  }]
 }
